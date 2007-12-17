@@ -23,7 +23,6 @@ BuildRequires:  perl(Archive::Zip)
 BuildRequires:  perl(Archive::Tar)
 BuildRequires:  perl(IO::Zlib)
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module is a single interface for manipulating different archive formats.
