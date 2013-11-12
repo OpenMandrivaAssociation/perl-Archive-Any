@@ -1,16 +1,16 @@
 %define	upstream_name	 Archive-Any
-%define upstream_version 0.0932
+%define upstream_version 0.0941
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 Epoch:		1
 
 Summary:	Single interface to deal with file archives
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Archive/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/modules/by-module/Archive/Archive-Any-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::Warn)
@@ -83,4 +83,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sat Nov 25 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.093-1mdv2007.1
 - first mdv release
+
 
